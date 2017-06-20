@@ -1,6 +1,8 @@
 Layout CSS:</br>
 Use it properly</br>
 
+Version: 1.0.0-Beta | License: MIT
+
 <b>Installation:</b></br>
 Using NPM: > npm install layout_css</br>
 or Using CDN: https://unpkg.com/layout_css@1.0.0/css/layout.css</br></br>
