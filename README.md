@@ -1,7 +1,7 @@
 Layout CSS:</br>
 Use it properly</br>
 
-Version: 1.0.0-Beta | License: MIT
+Version: 1.1.0-Beta | License: MIT
 
 <b>Installation:</b></br>
 Using NPM: > npm install layout_css</br>
