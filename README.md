@@ -5,4 +5,4 @@ Version: 1.0.0-Stable | License: MIT
 
 **Usage**
 
-`<link rel="stylesheet" href="assets/css/layout.css">`
+`<link rel="stylesheet" href="laziest.css">`
