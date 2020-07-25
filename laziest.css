@@ -1,0 +1,388 @@
+/*!
+ * The Laziest CSS Framework in the World
+ * Copyright 2016 https://github.com/vempink
+ * Licensed under MIT
+ */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.blk {
+    display: block;
+}
+
+.iblk {
+    display: inline-block;
+}
+
+.non {
+    display: none;
+}
+
+.no-op {
+    opacity: 0;
+}
+
+[class*="w-"] {
+    display: inline-block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-33 {
+    width: 33.333%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.rw {
+    display: inline-block;
+    width: 100%;
+}
+
+.rw [class*="w-"] {
+    float: left;
+}
+
+.h-vh {
+    height: 100vh;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+[class*="fix-"] {
+    position: fixed !important;
+    z-index: 100;
+}
+
+[class*="fix-top-"] {
+    top: 0;
+}
+
+.fix-top-r {
+    right: 0;
+}
+
+.fix-top-l {
+    left: 0;
+}
+
+[class*="fix-btm-"] {
+    bottom: 0;
+}
+
+.fix-btm-r {
+    right: 0;
+}
+
+.fix-btm-l {
+    left: 0;
+}
+
+[class*="abs-"] {
+    display: inline-block;
+    position: absolute !important;
+}
+
+[class*="abs-top-"] {
+    top: 0;
+}
+
+.abs-top-r {
+    right: 0;
+}
+
+.abs-top-l {
+    left: 0;
+}
+
+[class*="abs-btm-"] {
+    bottom: 0;
+}
+
+.abs-btm-r {
+    right: 0;
+}
+
+.abs-btm-l {
+    left: 0;
+}
+
+.el-mid {
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.el-vr-mid {
+    left: 50% !important;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.el-hr-mid {
+    top: 50% !important;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.no-m {
+    margin: 0 !important;
+}
+
+.no-m-top {
+    margin-top: 0 !important;
+}
+
+.no-m-btm {
+    margin-bottom: 0 !important;
+}
+
+.no-p {
+    padding: 0 !important;
+}
+
+.no-m-p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.flt-r {
+    float: right !important;
+}
+
+.flt-l {
+    float: left !important;
+}
+
+.va-mid {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.txt-r {
+    text-align: right !important;
+}
+
+.txt-l {
+    text-align: left !important;
+}
+
+.txt-mid {
+    text-align: center !important;
+}
+
+.crsr-point {
+    cursor: pointer;
+}
+
+.cstm-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cstm-i {
+    font-style: normal;
+}
+
+.cstm-ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cstm-btn {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-m1 {
+    z-index: -1;
+}
+
+.z-m2 {
+    z-index: -2;
+}
+
+.z-m3 {
+    z-index: -3;
+}
+
+.flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex.vr-mid {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+}
+
+.flex.hr-mid {
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+}
+
+.flex.mid {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+}
+
+.flex .eq-el {
+    flex: 1;
+}
+
+@media screen and (max-width: 1920px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .mbl-100 {
+        width: 100%;
+    }
+
+    .mbl-txt-r {
+        text-align: right !important;
+    }
+
+    .mbl-txt-l {
+        text-align: left !important;
+    }
+
+    .mbl-txt-mid {
+        text-align: center !important;
+    }
+
+    .mbl-block {
+        display: block;
+    }
+
+    .mbl-non {
+        display: none;
+    }
+}
