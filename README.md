@@ -1,10 +1,8 @@
-Layout CSS:</br>
-Use it properly</br>
+## Laziest CSS
+### I made this CSS because I was too lazy to call the same property repeatedly
 
-Version: 1.1.0-Beta | License: MIT
+Version: 1.0.0-Stable | License: MIT
 
-<b>Installation:</b></br>
-Using NPM: > npm install layout_css</br>
-or Using CDN: https://unpkg.com/layout_css@1.0.0/css/layout.css</br></br>
-<b>Usage:</b></br>
-<span>&lt;<span>link</span> <span>rel</span>=<span>"stylesheet" type="text/css"</span> <span>href</span>=<span>"layout.css"</span>&gt;</span>
+**Usage**
+
+`<link rel="stylesheet" href="assets/css/layout.css">`
